@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA Todo List</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Todo PWA</h1>
+    </header>
+    <main>
+        <input id="todoInput" type="text" placeholder="New task..." autocomplete="off">
+            <button id="addBtn">Add</button>
+        <ul id="todoList"></ul>
+    </main>
+
+    <script src="database.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
